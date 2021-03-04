@@ -1,0 +1,24 @@
+.background {
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    background: #3C3F58;
+    /* background: #43455C; */
+}
+
+.leftSide {
+    position: relative;
+    z-index: 10;
+    /* background: #3C3F58; */
+    background: #33354D;
+    height: 100%;
+    width: 100%;
+    box-shadow: 8px 0px 10px 0px rgba(15, 15, 15, 0.3);
+    padding-top: 1em;
+}
+
+.rightSide {
+    padding: 1em 1em 0em 1em;
+    background: #3C3F58;
+    /* background: #43455C; */
+}

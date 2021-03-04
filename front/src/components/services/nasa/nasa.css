@@ -1,0 +1,50 @@
+.nasaServiceCardData {
+    margin-right: 3px;
+    margin-left: 4px;
+    border: 1px solid #2E3047;
+    background: #43455C;
+    color: #B1E9DC;
+    /* border-radius: 4px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.widgetsList {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.apodWidget {
+    position: relative;
+    margin: 4px;
+    border: 1px solid #2E3047;
+    border-radius: 4px;
+    background: #3C3F58;
+    color: #B1E9DC;
+    box-shadow: 0px 0px 12px 1px rgba(15, 15, 15, 0.3);
+    height: 15em;
+}
+
+.apodWidgetName {
+    color: #3BBA9C;
+    border-bottom: 1px solid #2E3047;
+    padding-bottom: 1em;
+}
+
+.apodModal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #3BBA9C;
+    background: #3C3F58;
+    border: none;
+    border-radius: 4px;
+    padding: 2em;
+}
+

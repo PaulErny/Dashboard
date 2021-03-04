@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/paul/epitech/B-DEV-500-BDX-5-1-cardgames-paul.erny/api/Example.API.Tests/Example.API.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/paul/epitech/B-DEV-500-BDX-5-1-cardgames-paul.erny/api/Example.API.Tests/Example.API.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/paul/epitech/B-DEV-500-BDX-5-1-cardgames-paul.erny/api/Example.API.Tests/Example.API.Tests.csproj",
+        "projectName": "Example.API.Tests",
+        "projectPath": "/Users/paul/epitech/B-DEV-500-BDX-5-1-cardgames-paul.erny/api/Example.API.Tests/Example.API.Tests.csproj",
+        "packagesPath": "/Users/paul/.nuget/packages/",
+        "outputPath": "/Users/paul/epitech/B-DEV-500-BDX-5-1-cardgames-paul.erny/api/Example.API.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/paul/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/paul/epitech/B-DEV-500-BDX-5-1-cardgames-paul.erny/api/Example.API/Example.API.csproj": {
+                "projectPath": "/Users/paul/epitech/B-DEV-500-BDX-5-1-cardgames-paul.erny/api/Example.API/Example.API.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/paul/epitech/B-DEV-500-BDX-5-1-cardgames-paul.erny/api/Example.API/Example.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/paul/epitech/B-DEV-500-BDX-5-1-cardgames-paul.erny/api/Example.API/Example.API.csproj",
+        "projectName": "Example.API",
+        "projectPath": "/Users/paul/epitech/B-DEV-500-BDX-5-1-cardgames-paul.erny/api/Example.API/Example.API.csproj",
+        "packagesPath": "/Users/paul/.nuget/packages/",
+        "outputPath": "/Users/paul/epitech/B-DEV-500-BDX-5-1-cardgames-paul.erny/api/Example.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/paul/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "target": "Package",
+              "version": "[8.14.0.22654, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
